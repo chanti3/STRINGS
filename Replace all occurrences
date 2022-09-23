@@ -1,0 +1,12 @@
+s=input()
+s1=input()
+s2=input()
+l=len(s)
+r=''
+for i in range(0,l):
+    if s[i]==s1:
+        r=r+s2
+    else:
+        r=r+s[i]
+print("Modified string:")
+print(r)
