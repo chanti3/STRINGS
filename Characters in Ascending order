@@ -1,0 +1,7 @@
+s=input()
+l=list(s)
+l.sort()
+k=""
+for i in l:
+    k=k+i
+print(k)
